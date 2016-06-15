@@ -49,7 +49,7 @@ object build extends Build {
             noHadoop("org.apache.spark"   %% "spark-core"         % "1.5.0")
               exclude("com.twitter", "chill-java")
               exclude("com.twitter", "chill_2.11"),
-            "com.tdunning"                %  "t-digest"           % "3.1",
+            "com.tdunning"                %  "t-digest"           % "3.2-SNAPSHOT",
             "org.scalatest"               %% "scalatest"          % "2.2.4" % "test"
            )
      )
